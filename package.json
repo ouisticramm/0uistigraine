@@ -1,0 +1,19 @@
+{
+  "homepage": ""homepage": "https://ouisticramm.github.io/0uistigraine"",
+
+  "name": "0uistigraine",
+  "version": "1.0.0",
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
